@@ -87,16 +87,67 @@
     margin-bottom: 64px;
 }
 
+.video__titulo {
+    color: var(--grafito);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+
+.video__titulo--texto {
+    margin-top: 100px;
+    margin-bottom: 20px;
+
+}
+
 .testimonios__titulo--subrayado,
 .pago__titulo--subrayado,
 .destinos__titulo--subrayado,
 .busca__titulo--subrayado,
-.ofertas__titulo--subrayado {
+.ofertas__titulo--subrayado,
+.video__titulo--subrayado {
     width: 180px;
     height: 4px;
     background: var(--morado);
     margin: 0 auto;
-    margin-top: 16px;
+}
+
+.video__elemento--descripcion {
+    color: var(--grafito, #222);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 24px;
+    margin-top: 0%;
+}
+
+.video__elemento--boton {
+    border-radius: 8px;
+    background: var(--morado, #6715b8);
+    padding: 16px 48px;
+    margin-bottom: 6%;
+    font-size: 20px;
+    border-style: none;
+    line-height: 32px;
+    font-weight: 700;
+    color: #FFF;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+.video__elemento--boton:hover {
+    background-color:#340c5c; 
+    transform: scale(1.05);
+}
+
+.videoconferencia__container{
+    display: none;
+    margin-bottom: 10%;
 }
 
 img {
@@ -153,10 +204,7 @@ img {
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
-   
-
-    
+    line-height: normal;  
 }
 
 .ofertas__card--precio {
